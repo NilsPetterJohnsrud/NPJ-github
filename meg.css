@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border: 0px;
+	justify-content: space-between;
+	width: auto;
+	border-color: #00ff00;
+}
+#box1 {
+	border-style: solid;
+	border: 0px;
+	width: auto;
+	height: 300;	
+}
+#box2 {
+	border-style: solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px;
+	width: auto;
+	height: 50px;	
+}
+#box3 {
+	border-style: solid;
+	border: 0px;
+	width: auto;
+	height: auto;
+}
+#box4 {
+	border-style: solid;
+	Border: 0px;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	vertical-align: middle;
+	width: auto;
+	padding: 12px;
+	height: 30px;
+	background-color: #000000;
+	color: #ADADAD;
+}
+.knapp {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #000000;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+.knapp:hover {
+	background-color: white;
+	color: #000000;
+}
+.knapp:a {
+	color: red;
+}
+h1 {
+	color: black;
+	text-shadow: 2px 2px grey;
+	
+		}
+h2 {
+	color: blue
+}
+body {
+	color: black
+}
+h0 {
+	color: black;
+	text-shadow: 4px 4px light-grey;
+	font-size: 80px;
+}
