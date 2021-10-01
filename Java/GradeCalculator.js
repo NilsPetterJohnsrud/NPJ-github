@@ -1,5 +1,16 @@
 // JavaScript Document
 
+const students = [
+	studentOne,
+	studentTwo,
+	studentTree,
+	studentFour
+]
+
+for (let i=0; i < students.length; i++ ) {
+	//text += students [i] + <br>;
+	console.log (students[i])
+}
 
 const studentOne = {
   name: "Nils Petter",
@@ -29,3 +40,23 @@ const studentFour = {
   examGrade: 70
 }
 
+
+
+if (studentgrade > 89) {
+	console.log ('Studenten får karakteren A')
+}
+else if (studentgrade > 79) {
+	console.log ('Studenten får karakteren B')
+}
+else if (studentgrade > 69) {
+	console.log ('Studenten får karakteren C')
+}
+else if (studentgrade > 59) {
+	console.log ('Studenten får karakteren D')
+}
+else if (studentgrade > 49) {
+	console.log ('Studenten får karakteren E')
+}
+else {
+	console.log ('Studenten får karakteren F')
+}
