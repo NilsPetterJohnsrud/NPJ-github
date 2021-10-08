@@ -1,39 +1,39 @@
 // JavaScript Document
 
 const students = [
-	studentOne,
-	studentTwo,
-	studentTree,
-	studentFour
+	'student1',
+	'student2',
+	'student3',
+	'student4',
 ]
 
-for (let i=0; i < students.length; i++ ) {
+for ( let i = 0; i < students.length; i++ ) {
 	//text += students [i] + <br>;
-	console.log (students[i])
+	console.log( students[i] )
 }
 
-const studentOne = {
+//const 'student1' = {
   name: "Nils Petter",
   testGrade: 88,
   assignmentGrade: 91,
   examGrade: 80
 }
 
-const studentTwo = {
+const 'student2' = {
   name: "Vidar",
   testGrade: 75,
   assignmentGrade: 70,
   examGrade: 85
 }
 
-const studentTree = {
+const 'student3' = {
   name: "Dewald",
   testGrade: 81,
   assignmentGrade: 92,
   examGrade: 75
 }
 
-const studentFour = {
+const 'student4' = {
   name: "Sean",
   testGrade: 67,
   assignmentGrade: 55,
