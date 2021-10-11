@@ -1,5 +1,36 @@
 // JavaScript Document
 
+
+
+const 'student1' = {
+  name: "Nils Petter",
+  testGrade: 88,
+  assignmentGrade: 91,
+  examGrade: 80
+}
+
+const 'student2' = {
+  name: "Vidar",
+  testGrade: 75,
+  assignmentGrade: 70,
+  examGrade: 85
+}
+
+const 'student3' = {
+  name: "Dewald",
+  testGrade: 81,
+  assignmentGrade: 92,
+  examGrade: 75
+}
+
+const 'student4' = {
+  name: "Sean",
+  testGrade: 67,
+  assignmentGrade: 55,
+  examGrade: 70
+}
+
+
 const students = [
 	'student1',
 	'student2',
@@ -9,41 +40,13 @@ const students = [
 
 for ( let i = 0; i < students.length; i++ ) {
 	//text += students [i] + <br>;
-	console.log( students[i] )
+	console.log( students[i] );
 }
-/*
+
 for (const student of students) {console.log(student)}
 
 
-//const 'student1' = {
-  name: "Nils Petter",
-  testGrade: 88,
-  assignmentGrade: 91,
-  examGrade: 80
-}
-
-//const 'student2' = {
-  name: "Vidar",
-  testGrade: 75,
-  assignmentGrade: 70,
-  examGrade: 85
-}
-
-//const 'student3' = {
-  name: "Dewald",
-  testGrade: 81,
-  assignmentGrade: 92,
-  examGrade: 75
-}
-
-//const 'student4' = {
-  name: "Sean",
-  testGrade: 67,
-  assignmentGrade: 55,
-  examGrade: 70
-}
-
-
+/*
 
 if (studentgrade > 89) {
 	console.log ('Studenten får karakteren A')
