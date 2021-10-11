@@ -1,6 +1,11 @@
 // JavaScript Document
 
-
+const students = [
+	'student1',
+	'student2',
+	'student3',
+	'student4'
+]
 
 const 'student1' = {
   name: "Nils Petter",
@@ -31,12 +36,6 @@ const 'student4' = {
 }
 
 
-const students = [
-	'student1',
-	'student2',
-	'student3',
-	'student4'
-]
 
 for ( let i = 0; i < students.length; i++ ) {
 	//text += students [i] + <br>;
