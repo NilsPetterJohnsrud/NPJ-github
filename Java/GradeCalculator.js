@@ -63,3 +63,5 @@ else if (studentgrade > 49) {
 else {
 	console.log ('Studenten får karakteren F')
 }
+
+*/
