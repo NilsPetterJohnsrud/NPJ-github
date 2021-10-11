@@ -4,13 +4,16 @@ const students = [
 	'student1',
 	'student2',
 	'student3',
-	'student4',
+	'student4'
 ]
 
 for ( let i = 0; i < students.length; i++ ) {
 	//text += students [i] + <br>;
 	console.log( students[i] )
 }
+
+for (const student of students) {console.log(student)}
+
 
 //const 'student1' = {
   name: "Nils Petter",
