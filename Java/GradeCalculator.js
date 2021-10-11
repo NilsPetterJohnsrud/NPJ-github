@@ -19,21 +19,21 @@ for ( let i = 0; i < students.length; i++ ) {
   examGrade: 80
 }
 
-const 'student2' = {
+//const 'student2' = {
   name: "Vidar",
   testGrade: 75,
   assignmentGrade: 70,
   examGrade: 85
 }
 
-const 'student3' = {
+//const 'student3' = {
   name: "Dewald",
   testGrade: 81,
   assignmentGrade: 92,
   examGrade: 75
 }
 
-const 'student4' = {
+//const 'student4' = {
   name: "Sean",
   testGrade: 67,
   assignmentGrade: 55,
