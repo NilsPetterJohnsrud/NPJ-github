@@ -15,28 +15,28 @@ for ( let i = 0; i < students.length; i++ ) {
 for (const student of students) {console.log(student)}
 
 
-const 'student1' = {
+const 'studentOne' = {
   name: "Nils Petter",
   testGrade: 88,
   assignmentGrade: 91,
   examGrade: 80
 }
 
-const 'student2' = {
+const 'studentTwo' = {
   name: "Vidar",
   testGrade: 75,
   assignmentGrade: 70,
   examGrade: 85
 }
 
-const 'student3' = {
+const 'studentTree' = {
   name: "Dewald",
   testGrade: 81,
   assignmentGrade: 92,
   examGrade: 75
 }
 
-const 'student4' = {
+const 'studentFour' = {
   name: "Sean",
   testGrade: 67,
   assignmentGrade: 55,
@@ -81,8 +81,8 @@ else {
 */
 
 let student1Grade = "";
-for (let x in student1){
-	txt += student1[x] + " ";
+for (let x in studentOne){
+	txt += studentOne[x] + " ";
 }
 
 document.getElementById("studentGrade").innerHTML = txt;
