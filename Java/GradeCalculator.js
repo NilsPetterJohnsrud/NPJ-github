@@ -7,6 +7,14 @@ const students = [
 	'student4'
 ]
 
+for ( let i = 0; i < students.length; i++ ) {
+	//text += students [i] + <br>;
+	console.log( students[i] );
+}
+
+for (const student of students) {console.log(student)}
+
+
 const 'student1' = {
   name: "Nils Petter",
   testGrade: 88,
@@ -35,31 +43,35 @@ const 'student4' = {
   examGrade: 70
 }
 
+/*
+Vekting av karakterer:
+testgrade: 20%
+assignmentGrade: 30%
+examGrade: 50%
+*/
 
 
-for ( let i = 0; i < students.length; i++ ) {
-	//text += students [i] + <br>;
-	console.log( students[i] );
-}
-
-for (const student of students) {console.log(student)}
+calcStudentGrade (vektetTestGrade = testGrade * 20%;
+	 vektetAssignmentGrade = assignmentGrade * 30%;
+	 vektetExamGrade = examGrade * 50%;
+	 studentGrade = vektetTestGrade + vektetAssignmentGrade + vektetExamGrade)
 
 
 /*
 
-if (studentgrade > 89) {
+if (studentGrade > 89) {
 	console.log ('Studenten får karakteren A')
 }
-else if (studentgrade > 79) {
+else if (studentGrade > 79) {
 	console.log ('Studenten får karakteren B')
 }
-else if (studentgrade > 69) {
+else if (studentGrade > 69) {
 	console.log ('Studenten får karakteren C')
 }
-else if (studentgrade > 59) {
+else if (studentGrade > 59) {
 	console.log ('Studenten får karakteren D')
 }
-else if (studentgrade > 49) {
+else if (studentGrade > 49) {
 	console.log ('Studenten får karakteren E')
 }
 else {
@@ -67,3 +79,11 @@ else {
 }
 
 */
+
+let student1Grade = "";
+for (let x in student1){
+	txt += student1[x] + " ";
+}
+
+document.getElementById("studentGrade").innerHTML = txt;
+
