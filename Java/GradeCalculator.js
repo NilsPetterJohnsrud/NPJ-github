@@ -15,28 +15,28 @@ for ( let i = 0; i < students.length; i++ ) {
 for (const student of students) {console.log(student)}
 
 
-const 'studentOne' = {
+const studentOne = {
   name: "Nils Petter",
   testGrade: 88,
   assignmentGrade: 91,
   examGrade: 80
 }
 
-const 'studentTwo' = {
+const studentTwo = {
   name: "Vidar",
   testGrade: 75,
   assignmentGrade: 70,
   examGrade: 85
 }
 
-const 'studentTree' = {
+const studentTree = {
   name: "Dewald",
   testGrade: 81,
   assignmentGrade: 92,
   examGrade: 75
 }
 
-const 'studentFour' = {
+const studentFour = {
   name: "Sean",
   testGrade: 67,
   assignmentGrade: 55,
