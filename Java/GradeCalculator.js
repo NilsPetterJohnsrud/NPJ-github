@@ -40,7 +40,15 @@ const studentFour = {
   name: "Sean",
   testGrade: 67,
   assignmentGrade: 55,
-  examGrade: 70
+  examGrade: 70,
+//	vektetTestGrade: this.testGrade * 20%,
+//	vektetAssignmentGrade: this.assignmentGrade * 30%,
+//	vektetExamGrade: this.examGrade * 50%,
+//	StudentGrade: this.vektetTestGrade + this.vektetAssignmentGrade + this.vektetExamGrade,
+	studentGrade: function(testGrade, assignmentgrade, examgrade) {
+		return this.testGrade*20%+this.assignmentGrade*30%+this.examGrade*50%
+	}
+		console.log (student1Grade)
 }
 
 /*
@@ -49,36 +57,40 @@ testgrade: 20%
 assignmentGrade: 30%
 examGrade: 50%
 */
-
-
-calcStudentGrade (vektetTestGrade = testGrade * 20%;
-	 vektetAssignmentGrade = assignmentGrade * 30%;
-	 vektetExamGrade = examGrade * 50%;
-	 studentGrade = vektetTestGrade + vektetAssignmentGrade + vektetExamGrade)
-
-
+				
 /*
+let x=calcStudentGrade (67, 55, 70)
 
-if (studentGrade > 89) {
+function calcStudentGrade (testGrade, assignmentGrade, examGrade){
+	return studentOne.testGrade * 20% = vektetTestGrade;
+	 studentOne.assignmentGrade * 30% = vektetAssignmentGrade;
+	 studentOne.examGrade * 50% = vektetExamGrade;
+	 vektetTestGrade + vektetAssignmentGrade + vektetExamGrade = studentOneGrade
+}
+*/
+				
+ /*
+	if (studentGrade > 89) {
 	console.log ('Studenten får karakteren A')
 }
-else if (studentGrade > 79) {
+	else if (studentGrade > 79) {
 	console.log ('Studenten får karakteren B')
 }
-else if (studentGrade > 69) {
+	else if (studentGrade > 69) {
 	console.log ('Studenten får karakteren C')
 }
-else if (studentGrade > 59) {
+	else if (studentGrade > 59) {
 	console.log ('Studenten får karakteren D')
 }
-else if (studentGrade > 49) {
+	else if (studentGrade > 49) {
 	console.log ('Studenten får karakteren E')
 }
-else {
+	else {
 	console.log ('Studenten får karakteren F')
 }
 
 */
+
 
 let student1Grade = "";
 for (let x in studentOne){
