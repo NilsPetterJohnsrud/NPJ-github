@@ -48,7 +48,7 @@ const studentFour = {
 	studentGrade: function(testGrade, assignmentgrade, examgrade) {
 		return this.testGrade*20%+this.assignmentGrade*30%+this.examGrade*50%
 	}
-		console.log (student1Grade)
+		console.log (this.student1Grade)
 }
 
 /*
