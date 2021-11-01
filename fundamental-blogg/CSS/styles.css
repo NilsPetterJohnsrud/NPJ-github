@@ -1,0 +1,59 @@
+html, body {
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+}
+
+.posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax (320px, 1fr));
+	grid-gap: 1,5rem;
+}
+
+header {
+	background-color: #F9F9F9;
+	padding: 30px;
+	font-size: 35px;
+	color: #084F02;
+	background-image: url("../images/pexels-solen-feyissa-5744250.png");
+}
+
+nav {
+	justify-content: flex-end;
+	align-content: flex-end;
+	border-color: #F5090D;
+	border-width: 3px;
+	text-align: end;
+}
+
+footer {
+	justify-content: center;
+	align-content: center;
+	background-color: #084F02;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.knapp {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #000000;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+.knapp:hover {
+	background-color: white;
+	color: #000000;
+}
+.knapp:a {
+	color: red;
+}
