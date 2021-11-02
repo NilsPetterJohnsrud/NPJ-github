@@ -12,6 +12,9 @@ h1, h2, h3, h4 {
 	grid-gap: 1,5rem;
 }
 
+body {
+	font-family: roboto;
+}
 header {
 	background-color: #F9F9F9;
 	padding: 30px;
