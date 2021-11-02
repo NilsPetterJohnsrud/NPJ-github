@@ -36,5 +36,6 @@ elForm.addEventListener('submit', function(event){
 		const resultHTML = `
 			<h4>Success!</h4>
 			<p>Your message has been sendt </p>`
+		elFormResult.innerHTML = resultHTML
 	}
 })
