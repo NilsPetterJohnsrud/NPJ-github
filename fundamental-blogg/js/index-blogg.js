@@ -11,7 +11,7 @@ const [topPost, ...posts] = SAMPLE_POSTS
 function createPost(post) {
 	return `
 		<section class="card shadow">
-			<img class="card-img-top" src="${post.photo}" alt="" />
+			<img class="card-img-top" src="${post.photo}" alt=" " />
 			<div class="card-body">
 				<b class="text-muted d-block mb-4">${post.date}</b>
 				<h2 class="mb-1">${post.title}</h2>
