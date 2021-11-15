@@ -25,6 +25,7 @@ function createPost(post) {
 				<footer>
 					${ createTags(post.tags)}
 				</footer>
+			</div>
 		</section>
 		`
 }
@@ -47,9 +48,7 @@ function createTopPost(post) {
 			<span class="material-icons">person</span>
 			Written by ${post.author}
 				</p>
-		<footer>
-			${ createTags(post.tags)}
-		</footer>
+		<footer>${ createTags(post.tags)}</footer>
 	`
 }
 

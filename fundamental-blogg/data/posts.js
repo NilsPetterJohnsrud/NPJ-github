@@ -5,7 +5,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Travel the world',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Et porro minus laudantium magnam molestias nam nostrum excepturi?',
         tags: ['travel', 'holiday', 'nature'],
-        photo: 'img/pexels-joyston-judah-933054.jpg',
+        photo: 'images/pexels-joyston-judah-933054.jpg',
         author: 'Outdoors John',
         date: '20 MAR 2021'
     },
@@ -15,7 +15,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Spice life hacks',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['tips', 'cooking', 'food'],
-        photo: 'img/pexels-pixabay-357743.jpg',
+        photo: 'images/pexels-pixabay-357743.jpg',
         author: 'Spicy John',
         date: '20 MAR 2021'
     },
@@ -25,7 +25,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'You wont believe what happened next',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['tips', 'cooking', 'food'],
-        photo: 'img/pexels-s-migaj-747964.jpg',
+        photo: 'images/pexels-s-migaj-747964.jpg',
         author: 'Calm John',
         date: '20 MAR 2021'
     },
@@ -35,7 +35,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Coffee shops said this',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['travel', 'work', 'lifestyle'],
-        photo: 'img/pexels-andrea-piacquadio-3766227.jpg',
+        photo: 'images/pexels-andrea-piacquadio-3766227.jpg',
         author: 'Distant John',
         date: '20 MAR 2021'
     },
@@ -45,7 +45,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Hidden in plain sight',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['sport', 'workout', 'health'],
-        photo: 'img/pexels-rodnae-productions-7188095.jpg',
+        photo: 'images/pexels-rodnae-productions-7188095.jpg',
         author: 'Sporty John',
         date: '21 MAR 2021'
     },
@@ -55,7 +55,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Tomato and Basil',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['cooking', 'food', 'health'],
-        photo: 'img/pexels-dana-tentis-691114.jpg',
+        photo: 'images/pexels-dana-tentis-691114.jpg',
         author: 'Spicy John',
         date: '22 MAR 2021'
     },
@@ -65,7 +65,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Shaking it up',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['work', 'health', 'business'],
-        photo: 'img/pexels-fauxels-3183197.jpg',
+        photo: 'images/pexels-fauxels-3183197.jpg',
         author: 'Quarantine John',
         date: '23 MAR 2021'
     },
@@ -75,7 +75,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Fix it like pro',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['work', 'handy', 'lifestyle'],
-        photo: 'img/pexels-bidvine-1249611.jpg',
+        photo: 'images/pexels-bidvine-1249611.jpg',
         author: 'Handy John',
         date: '26 MAR 2021'
     },
@@ -85,7 +85,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Crispy base, cheesy top',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['cooking', 'food', 'pizza'],
-        photo: 'img/pexels-engin-akyurt-1435907.jpg',
+        photo: 'images/pexels-engin-akyurt-1435907.jpg',
         author: 'Don John',
         date: '27 MAR 2021'
     },
@@ -95,7 +95,7 @@ export const SAMPLE_POSTS = [
         subTitle: 'Mixing paint colours',
         intro: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
         tags: ['work', 'handy', 'paint'],
-        photo: 'img/pexels-ivan-samkov-5799100.jpg',
+        photo: 'images/pexels-ivan-samkov-5799100.jpg',
         author: 'Handy John',
         date: '29 MAR 2021'
     },
