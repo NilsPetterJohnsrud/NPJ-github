@@ -1,6 +1,6 @@
 // JavaScript Document
 
-import { SAMPLE_POSTS } from '/data/posts.js'
+import { SAMPLE_POSTS } from '../data/posts.js'
 
 const elPosts = document.getElementById('posts')
 const elTopPost = document.getElementById('top-post')
