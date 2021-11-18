@@ -15,7 +15,7 @@ h1, h2, h3, h4 {
 body {
 	font-family: roboto;
 }
-/*header {
+header {
 	background-color: #F9F9F9;
 	padding: 30px;
 	font-size: 35px;
@@ -29,16 +29,16 @@ nav {
 	border-color: #F5090D;
 	border-width: 3px;
 	text-align: end;
-}*/
+}
 
-/*footer {
+footer {
 	justify-content: center;
 	align-content: center;
 	background-color: #084F02;
 	padding: 10px;
 	color: white;
 	text-align: center;
-}*/
+}
 
 .knapp {
 	display: inline-block;
