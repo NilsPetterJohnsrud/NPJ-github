@@ -1,5 +1,4 @@
 // JavaScript Document
-
 import { SAMPLE_POSTS } from '../data/posts.js'
 
 const elPosts = document.getElementById('posts')
