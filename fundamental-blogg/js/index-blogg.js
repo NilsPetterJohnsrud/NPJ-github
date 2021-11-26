@@ -19,7 +19,7 @@ function createPost(post) {
 
 				<p class="text-muted d-flex align-items-center">
 					<span class="material-icons">person</span>
-					Written by 
+					Written by
 				</p>
 				<footer>
 					${ createTags(post.tags) }
