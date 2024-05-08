@@ -4,7 +4,19 @@
 <meta charset="utf-8">
 <title>Nils Petter Johnsrud</title>
 	<link rel="stylesheet" type="text/css" href="meg.css" />
-	
+	<style>
+        .gallery img {
+            width: 100px;  /* Størrelse på bildene */
+            padding: 5px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            transition: transform .2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
 </head>
 
 <body>
@@ -36,6 +48,23 @@
 		</nav></div>
 	<div id="box3">
 	<h1>Bildeside</h1><!-- Her skal nettsidens innhold inn -->
+	<div class="gallery"></div>
+
+    <script>
+        fetch('list_images.php')  // Kaller PHP-skriptet som returnerer bildelisten
+            .then(response => response.json())  // Tolker svaret som JSON
+            .then(images => {
+                const gallery = document.querySelector('.gallery');
+                images.forEach(image => {
+                    const img = document.createElement('img');  // Oppretter et nytt img-element
+                    img.src = image;  // Setter bildekilden
+                    img.alt = 'Bilde';
+                    gallery.appendChild(img);  // Legger til img-elementet i galleriet
+                });
+            })
+            .catch(error => console.error('Error loading the images:', error));
+    </script>
+	
 		</div>
 		<div id="box4">Nils Petter Johnsrud - nilsj@viken.no</div>
 	</div>
